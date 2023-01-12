@@ -1,0 +1,80 @@
+.header {
+    height: 600px;
+    overflow: hidden;
+}
+
+.header .carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%
+}
+
+.carousel-item .overlay {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item .hero {
+    font-size: 4em;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        height: 500px;
+    }
+
+    .carousel-item .hero {
+        font-size: larger;
+    }
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.form-control {
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.content-card {
+    cursor: pointer;
+    border: 0;
+    transition: 0.3s;
+}
+
+.content-card img {
+    height: 200px;
+}
+
+.content-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.partnerCarousel .item img {
+    height: 100px;
+    width: fit-content;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer .nav a {
+    padding-left: 0;
+    padding-right: 0;
+    color: black;
+}
